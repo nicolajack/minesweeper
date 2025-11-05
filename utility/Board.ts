@@ -42,3 +42,5 @@ const createGrid=(height: number, width: number, mines: number): Cell[][]=>{
     }
     return grid;
 }
+
+export default createGrid;

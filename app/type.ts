@@ -11,3 +11,9 @@ export interface Tuple {
     x: number;
     y: number;
 }
+
+export interface CellProps {
+    cell: Cell;
+    cellModifier: (x:number, y:number)=> void;
+    flagModifier: (x:number, y:number)=> void;
+}
